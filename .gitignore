@@ -1,0 +1,6 @@
+*.min.js
+bower_components
+node_modules
+dist
+app/libs
+app/compile
