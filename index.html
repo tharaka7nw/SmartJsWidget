@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Smart Js Widget Test Page</title>
+        <style>            
+            html, body{
+                margin: 0px;
+                background: #BEF781;
+            }
+
+            .container{
+                width: 600px;
+                height: 700px;
+                margin: 0 auto;
+                background: #fff;
+                padding: 10px;
+            }
+
+            .separator{
+                display: block;
+                width: auto;
+                height: 2px;
+                background: #fff;
+                margin: 20px 0px;
+            }
+
+            p{
+                color: green;
+            }
+
+            #smart_widget{
+                width: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Sample Page -->
+            <h1>This is title of the page</h1>
+            <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+            </p>
+            <div class="separator"></div>
+            <!-- Sample Page End -->
+
+            <!-- Smart Js Widget -->
+            <div id="smart_widget"/>
+
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES * * */
+				
+				
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                var rt = document.createElement('script');
+                rt.type = 'text/javascript'; rt.async = true;
+                rt.src = 'dist/embed.min.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(rt);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the reviews. powered by ReviewTree.</a></noscript>
+            <!-- Smart Js Widget -->
+
+        </div>
+    </body>
+</html>

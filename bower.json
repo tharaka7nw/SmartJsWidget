@@ -1,0 +1,25 @@
+{
+  "name": "SmartJsWidget",
+  "version": "1.0.0",
+  "authors": [
+    "reviewtree.com"
+  ],
+  "description": "Scaffolding template for creating embeddable JavaScript widgets",
+  "license": "MIT",
+  "homepage": "Tharaka Wijebandara",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "almond": "~0.3.1",
+    "jquery": "~2.1.4",
+    "requirejs-text": "~2.0.14",
+    "handlebars": "~3.0.3",
+    "cleanslate": "~0.10.1"
+  }
+}
